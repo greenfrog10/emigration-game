@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="25" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="30">
+ <tileset firstgid="1" source="IceTileset.tsx"/>
+ <tileset firstgid="181" source="coolschool_tileset.tsx"/>
+ <tileset firstgid="341" source="Interiors_free_32x32.tsx"/>
+ <tileset firstgid="1765" source="Male 03-3.tsx"/>
+ <tileset firstgid="1777" source="Teacher male 01.tsx"/>
+ <tileset firstgid="1789" source="Male 14-1.tsx"/>
+ <tileset firstgid="1801" source="Male 13-2.tsx"/>
+ <tileset firstgid="1813" source="Female 20-2.tsx"/>
+ <layer id="1" name="floor" width="25" height="12">
+  <data encoding="csv">
+44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,
+44,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,44,
+44,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,44,
+44,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,44,
+44,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,44,
+44,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,44,
+44,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,44,
+44,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,44,
+44,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,44,
+44,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,44,
+44,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,794,44,
+44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44
+</data>
+ </layer>
+ <layer id="12" name="carpet" width="25" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,608,609,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="chairs" width="25" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,908,909,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,925,0,0,0,0,951,952,0,0,951,952,0,951,952,0,951,952,0,0,0,0,0,
+0,0,0,941,0,0,0,0,967,968,0,0,967,968,0,967,968,0,967,968,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="13" name="npcs" width="25" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1783,0,0,0,0,0,0,1805,0,0,0,1769,0,0,1793,0,0,1817,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="14" name="npc">
+  <object id="17" name="text_zone_raj" type="npcs" x="377.332" y="139.717" width="84.1155" height="76.0366">
+   <properties>
+    <property name="text">This is Raj Porus my older brother in primary school. He
+was born in Pondicherry, India in 2001 and he now lives and
+works in France as a software developer. He emigrated to
+France at 6 years old because our father wanted to be
+closer to his side of the family, who all live there.His
+childhood in France was very difficult. Trying to fit in
+with other children was hard, and making friends without
+sharing a language was extremely challenging. He said that
+his classmates and teachers sounded like gibberish at
+first. He described it as a very painful period of his life
+and regrets that he didn't stay in India.
+
+The answer to what he had to do to fit in is in his room.
+(the purple house)</property>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="26" name="text_zone" type="npcs" x="248.545" y="143.519" width="84.1155" height="76.0366">
+   <properties>
+    <property name="text" value="h)y wh+['s up ?"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="28" name="text_zone" type="npcs" x="571.225" y="144.945" width="84.1155" height="76.0366">
+   <properties>
+    <property name="text" value="= 1 thInk+he do3s n0t knoW h0w to Spéak fr3nch"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="29" name="text_zone" type="npcs" x="474.278" y="143.994" width="84.1155" height="76.0366">
+   <properties>
+    <property name="text" value=";o you understa[d me ?"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="collisions">
+  <object id="1" type="collision" x="-0.475229" y="-1.90091" width="34.2165" height="391.588"/>
+  <object id="2" type="collision" x="3.3266" y="354.045" width="797.909" height="29.9394"/>
+  <object id="3" type="collision" x="1.42569" y="0.950457" width="773.197" height="30.4146"/>
+  <object id="4" type="collision" x="770.346" y="0.475229" width="28.989" height="383.034"/>
+  <object id="12" type="collision" x="92.1944" y="147.796" width="38.0183" height="75.5614"/>
+  <object id="16" type="collision" x="66.532" y="161.103" width="25.1871" height="33.7412"/>
+  <object id="14" type="collision" x="390.163" y="156.825" width="64.1559" height="54.1761"/>
+  <object id="23" type="collision" x="256.861" y="155.875" width="64.1559" height="54.1761"/>
+  <object id="24" type="collision" x="575.74" y="154.449" width="64.1559" height="54.1761"/>
+  <object id="25" type="collision" x="484.971" y="155.4" width="64.1559" height="54.1761"/>
+ </objectgroup>
+ <objectgroup id="5" name="exit_points">
+  <object id="8" name="exit" type="exit" x="326.482" y="312.701" width="53.7008" height="54.176">
+   <properties>
+    <property name="file" type="file" value="map.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="player_spawn" class="player_spawn"/>
+</map>

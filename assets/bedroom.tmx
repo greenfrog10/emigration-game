@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="26">
+ <tileset firstgid="1" source="Interiors_free_32x32.tsx"/>
+ <tileset firstgid="1425" source="IceTileset.tsx"/>
+ <tileset firstgid="1605" source="coolschool_tileset.tsx"/>
+ <tileset firstgid="1765" source="beds_BR.tsx"/>
+ <layer id="1" name="floor" width="12" height="12">
+  <data encoding="csv">
+745,745,745,745,745,745,745,745,745,745,745,745,
+745,745,745,745,745,745,745,745,745,745,745,745,
+745,745,745,745,745,745,745,745,745,745,745,745,
+745,745,745,745,745,745,745,745,745,745,745,745,
+745,745,745,745,745,745,745,745,745,745,745,745,
+745,745,745,745,745,745,745,745,745,745,745,745,
+745,745,745,745,745,745,745,745,745,745,745,745,
+745,745,745,745,745,745,745,745,745,745,745,745,
+745,745,745,745,745,745,745,745,745,745,745,745,
+745,745,745,745,745,745,745,745,745,745,745,745,
+745,745,745,745,745,745,745,745,745,745,745,745,
+745,745,745,745,745,745,745,745,745,745,745,745
+</data>
+ </layer>
+ <layer id="10" name="carpet" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,459,460,0,0,0,0,0,
+0,0,0,0,0,475,476,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="player_spawn"/>
+ <layer id="2" name="walls" width="12" height="12">
+  <data encoding="csv">
+1468,1468,1468,1468,1468,1468,1468,1468,1468,1468,1468,1468,
+1468,0,0,0,0,0,0,0,0,0,0,1468,
+1468,0,0,0,0,0,0,0,0,0,0,1468,
+1468,0,0,0,0,0,0,0,0,0,0,1468,
+1468,0,0,0,0,0,0,0,0,0,0,1468,
+1468,0,0,0,0,0,0,0,0,0,0,1468,
+1468,0,0,0,0,0,0,0,0,0,0,1468,
+1468,0,0,0,0,0,0,0,0,0,0,1468,
+1468,0,0,0,0,0,0,0,0,0,0,1468,
+1468,0,0,0,0,0,0,0,0,0,0,1468,
+1468,0,0,0,0,0,0,0,0,0,0,1468,
+1468,1468,1468,1468,1468,1468,1468,1468,1468,1468,1468,1468
+</data>
+ </layer>
+ <layer id="3" name="furnitures" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,132,0,0,0,0,0,
+0,230,231,0,0,129,148,131,0,1765,1766,0,
+0,246,247,0,0,0,0,0,0,1772,1773,0,
+0,0,0,0,0,0,0,0,0,1779,1780,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="tv" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="collision">
+  <object id="3" type="collision" x="29" y="28" width="68" height="70"/>
+  <object id="15" type="collision" x="-1.42109e-14" y="351" width="384.333" height="33"/>
+  <object id="16" type="collision" x="0.666667" y="-2" width="386" height="33"/>
+  <object id="19" type="collision" x="1" y="-0.333333" width="29.6667" height="378"/>
+  <object id="21" type="collision" x="301" y="48.3333" width="39" height="66"/>
+  <object id="22" type="collision" x="157.333" y="22.6667" width="99.3333" height="47"/>
+  <object id="20" type="collision" x="353" y="-4.33333" width="29.6667" height="378"/>
+ </objectgroup>
+ <objectgroup id="8" name="text_zone" class="npcs">
+  <properties>
+   <property name="text">He learned French very quickly through reading books.He became so proficient that he eventually no longer fit in with his classmates, who disliked his advanced vocabulary and overly formal way of speaking.
+One reason he learned French so fast is that he was forbidden from speaking Tamil (his  mother tongue) by our parents so that he could learn French fast.</property>
+  </properties>
+  <object id="4" type="npcs" x="21.3333" y="16" width="86" height="89">
+   <properties>
+    <property name="text">He learned French very quickly through cartoons and reading books.
+He became so proficient that he eventually no longer fit in with
+his classmates, who disliked his advanced vocabulary and overly
+formal way of speaking. One reason he learned French so fast is
+that he was forbidden from speaking Tamil (his mother tongue)
+by our parents. This was very traumatic for him and caused him
+to lose much of his ability to use Tamil properly. Today, he can
+still understand and speak it to some extent, but he can no longer
+read or write it. He still regrets it to this day.
+</property>
+   </properties>
+  </object>
+  <object id="5" type="npcs" x="159.667" y="12" width="97" height="56">
+   <properties>
+    <property name="text">One of the main things that helped him and I preserve our
+connection to Tamil culture was Tamil cinema. This film
+industry is very unique and should not be confused with
+Bollywood. In India, each region has its own film industry,
+stars, iconic movies, standards, and culture. Bollywood is
+often incorrectly referred to as Indian cinema, but it only
+represents one part of the country. The region where we
+come from, Tamil Nadu, has its own film industry called
+Kollywood. He watched many of these movies (often through
+sketchy websites) and still listens to their music today
+with me. These films and songs have helped him and I stay
+connected to Tamil culture.</property>
+   </properties>
+  </object>
+  <object id="25" type="manual_enter" x="156.333" y="352" width="73.3333" height="27.3333">
+   <properties>
+    <property name="dest_x" type="int" value="591"/>
+    <property name="dest_y" type="int" value="465"/>
+    <property name="file" type="file" value="map.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
